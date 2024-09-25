@@ -1,0 +1,148 @@
+[gd_scene load_steps=11 format=3 uid="uid://cev86lrv86sok"]
+
+[ext_resource type="Texture2D" uid="uid://dgyxusjwx1l4w" path="res://assets/Free Pixel Art Forest/PNG/Background layers/Layer_0002_7.png" id="1_sv7j5"]
+[ext_resource type="Texture2D" uid="uid://bbkeig4vra0uv" path="res://gato/Cat Sprite Sheet.png" id="2_v5asm"]
+[ext_resource type="Script" path="res://assets/project/button.gd" id="2_x7o1x"]
+
+[sub_resource type="SystemFont" id="SystemFont_e5k63"]
+font_names = PackedStringArray("Century")
+
+[sub_resource type="SystemFont" id="SystemFont_y3jnr"]
+font_names = PackedStringArray("Impact")
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o8tfw"]
+atlas = ExtResource("2_v5asm")
+region = Rect2(0, 210, 32, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4ajwk"]
+atlas = ExtResource("2_v5asm")
+region = Rect2(32, 210, 32, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kbxjy"]
+atlas = ExtResource("2_v5asm")
+region = Rect2(64, 210, 32, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8nu6a"]
+atlas = ExtResource("2_v5asm")
+region = Rect2(96, 210, 32, 35)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3op0y"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o8tfw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4ajwk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kbxjy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8nu6a")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -126.0
+offset_top = -160.0
+offset_right = 452.0
+offset_bottom = 313.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_sv7j5")
+
+[node name="ColorRect" type="ColorRect" parent="TextureRect"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 32.0
+offset_top = 4.0
+offset_right = 32.0
+offset_bottom = 4.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Control" type="Control" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer/Control"]
+layout_mode = 0
+offset_left = 144.0
+offset_top = 32.0
+offset_right = 536.0
+offset_bottom = 101.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0.435192, 0.435192, 0.435192, 1)
+theme_override_fonts/font = SubResource("SystemFont_e5k63")
+theme_override_font_sizes/font_size = 50
+text = "REAPER DARK "
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="vboxxxx" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="start" type="Button" parent="MarginContainer/HBoxContainer/vboxxxx"]
+layout_mode = 2
+theme_override_fonts/font = SubResource("SystemFont_y3jnr")
+theme_override_font_sizes/font_size = 29
+text = "Start "
+script = ExtResource("2_x7o1x")
+
+[node name="quit" type="Button" parent="MarginContainer/HBoxContainer/vboxxxx"]
+layout_mode = 2
+theme_override_fonts/font = SubResource("SystemFont_y3jnr")
+theme_override_font_sizes/font_size = 29
+text = "Quit"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(52, 306)
+scale = Vector2(4.51563, 3.92143)
+sprite_frames = SubResource("SpriteFrames_3op0y")
+autoplay = "default"
+frame_progress = 0.438978
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 100.0
+offset_top = 267.0
+offset_right = 236.0
+offset_bottom = 290.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0.28485, 0.28485, 0.28485, 1)
+text = "By Infinity Games"
+
+[connection signal="pressed" from="MarginContainer/HBoxContainer/vboxxxx/start" to="MarginContainer/HBoxContainer/vboxxxx/start" method="_on_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/vboxxxx/quit" to="MarginContainer/HBoxContainer/vboxxxx/start" method="_on_quit_pressed"]

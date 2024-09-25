@@ -1,0 +1,52 @@
+2a60927148abd1d33b818b535e306557
+::res://::1727214309
+icon.svg::CompressedTexture2D::7337338450809636861::1726692432::1726692464::1::::<><>::
+::res://assets/::1726694074
+::res://assets/IDLE/::1726694074
+::res://assets/IDLE/16x16/::1726694074
+GOST_IDLE_16_IDLE_0.png::CompressedTexture2D::75705789710617797::1726692464::1726692464::1::::<><>::
+GOST_IDLE_16_IDLE_1.png::CompressedTexture2D::1102689847740031310::1726692464::1726692464::1::::<><>::
+GOST_IDLE_16_IDLE_2.png::CompressedTexture2D::1352858010060879167::1726692464::1726692464::1::::<><>::
+GOST_IDLE_16_IDLE_3.png::CompressedTexture2D::7442783170256123019::1726692464::1726692464::1::::<><>::
+GOST_IDLE_16_IDLE_4.png::CompressedTexture2D::2610944797175230222::1726692464::1726692464::1::::<><>::
+GOST_IDLE_16_IDLE_5.png::CompressedTexture2D::331929416000410112::1726692464::1726692464::1::::<><>::
+::res://assets/IDLE/32x32/::1726694074
+GOST_IDLE_32_IDLE_0.png::CompressedTexture2D::3266946376202341191::1726692464::1726692464::1::::<><>::
+GOST_IDLE_32_IDLE_1.png::CompressedTexture2D::6847257716629013719::1726692464::1726692464::1::::<><>::
+GOST_IDLE_32_IDLE_2.png::CompressedTexture2D::247725254168140999::1726692464::1726692464::1::::<><>::
+GOST_IDLE_32_IDLE_3.png::CompressedTexture2D::9153401398366576767::1726692464::1726692464::1::::<><>::
+GOST_IDLE_32_IDLE_4.png::CompressedTexture2D::3555909680210763277::1726692464::1726692464::1::::<><>::
+GOST_IDLE_32_IDLE_5.png::CompressedTexture2D::3379818346866554182::1726692464::1726692464::1::::<><>::
+::res://assets/IDLE/32x32/personagem principal/::1726694074
+idle 32x32.png::CompressedTexture2D::1015046633237993566::1726692464::1726692464::1::::<><>::
+::res://assets/IDLE/32x32/personagem principal/1C - Prototype Character/::1726694074
+::res://assets/IDLE/32x32/personagem principal/1C - Prototype Character/20x20/::1726694074
+Character Sheet 20x20.png::::-1::0::0::0::::<><>::
+frozen 20x20.png::CompressedTexture2D::3432136948367105232::1726692464::1726692466::1::::<><>::
+Idle 20x20.png::CompressedTexture2D::1200870972471141054::1726692464::1726692466::1::::<><>::
+jump 20x20.png::CompressedTexture2D::8180404482801443750::1726692464::1726692466::1::::<><>::
+walk 20x20.png::CompressedTexture2D::6127950127289208412::1726692466::1726692466::1::::<><>::
+::res://assets/IDLE/32x32/personagem principal/1C - Prototype Character/32x32/::1726694074
+Character Sheet 32x32.png::::-1::0::0::0::::<><>::
+frozen 32x32.png::::-1::0::0::0::::<><>::
+idle 32x32.png::CompressedTexture2D::7998669342697149628::1726692466::1727214309::1::::<><>::
+jump 32x32.png::CompressedTexture2D::3049563095084461433::1726692466::1727214309::1::::<><>::
+::res://enemigro/::1726694074
+::res://enemigro/Reaper (Animated Pixel Art)/::1726694074
+::res://enemigro/Reaper (Animated Pixel Art)/Animation Sprite Sheets (PNG)/::1726694074
+HolsterWeaponReaper-Sheet.png::::-1::0::0::0::::<><>::
+HostileAttackReaper-Sheet.png::::-1::0::0::0::::<><>::
+HostileIdleReaper-Sheet.png::::-1::0::0::0::::<><>::
+HostileRunningReaper-Sheet.png::::-1::0::0::0::::<><>::
+PassiveIdleReaper-Sheet.png::::-1::0::0::0::::<><>::
+PassiveRunningReaper-Sheet.png::::-1::0::0::0::::<><>::
+WieldWeaponReaper-Sheet.png::::-1::0::0::0::::<><>::
+::res://enemigro/Reaper (Animated Pixel Art)/Aseprite Files/::1726694074
+::res://enemigro/Reaper (Animated Pixel Art)/Preview/::1726694074
+::res://enemigro/Reaper (Animated Pixel Art)/Preview/Cover/::1726694074
+Cover Photo.png::CompressedTexture2D::5150530380133345935::1726692462::1726692462::1::::<><>::
+::res://enemigro/Reaper (Animated Pixel Art)/Preview/Preview GIF/::1726694074
+::res://gato/::1726694074
+Cat Sprite Sheet.png::CompressedTexture2D::2477510820110356369::1726692462::1726692462::1::::<><>::
+::res://personagem principal/::1726694074
+AnimationSheet_Character.png::CompressedTexture2D::3304020904016929751::1726692460::1726692462::1::::<><>::

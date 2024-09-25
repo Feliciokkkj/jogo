@@ -1,0 +1,14 @@
+CharacterBody2D
+Label
+AnimatedSprite2D
+Button
+VBoxContainer
+HBoxContainer
+MarginContainer
+ColorRect
+Control
+TextureRect
+CollisionShape2D
+CharacterBody3D
+Camera2D
+AnimationPlayer

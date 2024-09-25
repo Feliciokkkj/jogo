@@ -1,0 +1,49 @@
+[gd_scene load_steps=7 format=3 uid="uid://j8l3271w2yv0"]
+
+[ext_resource type="Script" path="res://assets/project/playerDD.gd" id="1_6wwnq"]
+[ext_resource type="Texture2D" uid="uid://opxw1h3bvqmo" path="res://assets/IDLE/32x32/personagem principal/idle 32x32.png" id="2_v7okj"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_esq3m"]
+height = 40.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m6m8h"]
+atlas = ExtResource("2_v7okj")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lj66t"]
+atlas = ExtResource("2_v7okj")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_gjteb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m6m8h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lj66t")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Player" type="CharacterBody2D"]
+position = Vector2(0, -18)
+script = ExtResource("1_6wwnq")
+
+[node name="colision" type="CollisionShape2D" parent="."]
+position = Vector2(22, 100)
+shape = SubResource("CapsuleShape2D_esq3m")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="colision"]
+root_node = NodePath("../..")
+
+[node name="Anim" type="AnimatedSprite2D" parent="colision/AnimationPlayer"]
+position = Vector2(23, 295)
+sprite_frames = SubResource("SpriteFrames_gjteb")
+autoplay = "default"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(3, -62)
+zoom = Vector2(2, 2)

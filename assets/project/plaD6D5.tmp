@@ -1,0 +1,124 @@
+[gd_scene load_steps=11 format=3 uid="uid://c8efxml0uufs6"]
+
+[ext_resource type="Texture2D" uid="uid://bncq0hiq5lxf0" path="res://personagem principal/AnimationSheet_Character.png" id="1_jn4u2"]
+
+[sub_resource type="GDScript" id="GDScript_eqy8q"]
+script/source = "extends CharacterBody2D
+
+func _unhandled_input(event):
+	if event is InputEventKey:
+		if event.pressed and event.keycode == KEY_ESCAPE:
+			get_tree().quit()
+
+const SPEED = 300.0
+const JUMP_FORCE = -300.0
+
+var gravity = ProjectSettings.get_setting(\"physics/2d/default_gravity\")
+
+
+@onready var _animated_sprite = $AnimatedSprite2D
+
+
+@export var speed = 400
+
+func get_input():
+	var direction = Input.get_vector(\"left\", \"right\")
+	velocity = direction * SPEED
+
+func _physics_process(delta):
+	get_input()
+	move_and_slide()
+	
+	
+	
+func _physics_process(delta: float) -> void:
+	
+	if not is_on_floor():
+		velocity += get_gravity() * delta
+
+	
+	if Input.is_action_just_pressed(\"ui_accept\") and is_on_floor():
+		velocity.y = JUMP_FORCE
+
+func _process(_delta):
+	if Input.is_action_pressed(\"ui_right\"):
+		_animated_sprite.play(\"run\")
+		_animated_sprite.scale.x
+	else:
+		_animated_sprite.play(\"idle\")
+	move_and_slide()
+"
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ssa26"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hr33y"]
+atlas = ExtResource("1_jn4u2")
+region = Rect2(0, 0, 36, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vqsgt"]
+atlas = ExtResource("1_jn4u2")
+region = Rect2(0, 32, 36, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b0fxr"]
+atlas = ExtResource("1_jn4u2")
+region = Rect2(0, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_70nd1"]
+atlas = ExtResource("1_jn4u2")
+region = Rect2(32, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8o2nr"]
+atlas = ExtResource("1_jn4u2")
+region = Rect2(64, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xx3fa"]
+atlas = ExtResource("1_jn4u2")
+region = Rect2(96, 64, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_o7y5x"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hr33y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vqsgt")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b0fxr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_70nd1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8o2nr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xx3fa")
+}],
+"loop": true,
+"name": &"run",
+"speed": 5.0
+}]
+
+[node name="player" type="CharacterBody2D"]
+position = Vector2(29, 282)
+script = SubResource("GDScript_eqy8q")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_ssa26")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_o7y5x")
+animation = &"run"
+autoplay = "idle"
+frame_progress = 0.11755
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(42, -43)
+zoom = Vector2(2, 2)

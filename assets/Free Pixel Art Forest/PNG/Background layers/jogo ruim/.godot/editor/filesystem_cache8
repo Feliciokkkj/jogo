@@ -1,0 +1,86 @@
+2a60927148abd1d33b818b535e306557
+::res://::1727212563
+icon.svg::CompressedTexture2D::7337338450809636861::1726692210::1726692426::1::::<><>::
+::res://assets/::1726694073
+::res://assets/Free Pixel Art Forest/::1726694073
+changelog.txt::TextFile::-1::1726692430::0::1::::<><>::
+Contact.txt::TextFile::-1::1726692430::0::1::::<><>::
+license.txt::TextFile::-1::1726692430::0::1::::<><>::
+::res://assets/Free Pixel Art Forest/PNG/::1726694073
+::res://assets/Free Pixel Art Forest/PNG/Background layers/::1726694073
+Layer_0000_9.png::CompressedTexture2D::9090096352488195442::1726692432::1726692432::1::::<><>::
+Layer_0001_8.png::CompressedTexture2D::1491294367083067125::1726692430::1726692432::1::::<><>::
+Layer_0002_7.png::CompressedTexture2D::7631373346071551708::1726692430::1726692432::1::::<><>::
+Layer_0003_6.png::CompressedTexture2D::582952462487225801::1726692430::1726692432::1::::<><>::
+Layer_0004_Lights.png::CompressedTexture2D::8355664869792484285::1726692430::1726692432::1::::<><>::
+Layer_0005_5.png::CompressedTexture2D::387151309449858487::1726692430::1726692432::1::::<><>::
+Layer_0006_4.png::CompressedTexture2D::8811938126545494332::1726692430::1726692432::1::::<><>::
+Layer_0007_Lights.png::CompressedTexture2D::5972919309782790026::1726692430::1726692432::1::::<><>::
+Layer_0008_3.png::CompressedTexture2D::1834181968460872884::1726692430::1726692432::1::::<><>::
+Layer_0009_2.png::CompressedTexture2D::3205873580189475747::1726692432::1726692432::1::::<><>::
+Layer_0010_1.png::CompressedTexture2D::8444072791144231966::1726692432::1726692432::1::::<><>::
+Layer_0011_0.png::CompressedTexture2D::3878159837864076016::1726692432::1726692432::1::::<><>::
+::res://assets/IDLE/::1726694073
+character_body_2d.gd::GDScript::-1::1726692428::0::1::::<>CharacterBody2D<>::
+character_body_2d.tscn::PackedScene::123418667154936331::1726692428::0::1::::<><>::uid://bncq0hiq5lxf0<>res://assets/IDLE/label.gd
+label.gd::GDScript::-1::1726692428::0::1::::<>Label<>::
+::res://assets/IDLE/16x16/::1726694073
+GOST_IDLE_16_IDLE_0.png::CompressedTexture2D::75705789710617797::1726692426::1726692426::1::::<><>::
+GOST_IDLE_16_IDLE_1.png::CompressedTexture2D::1102689847740031310::1726692426::1726692426::1::::<><>::
+GOST_IDLE_16_IDLE_2.png::CompressedTexture2D::1352858010060879167::1726692426::1726692426::1::::<><>::
+GOST_IDLE_16_IDLE_3.png::CompressedTexture2D::7442783170256123019::1726692426::1726692426::1::::<><>::
+GOST_IDLE_16_IDLE_4.png::CompressedTexture2D::2610944797175230222::1726692426::1726692426::1::::<><>::
+GOST_IDLE_16_IDLE_5.png::CompressedTexture2D::331929416000410112::1726692426::1726692426::1::::<><>::
+::res://assets/IDLE/32x32/::1726694073
+GOST_IDLE_32_IDLE_0.png::CompressedTexture2D::3266946376202341191::1726692426::1726692426::1::::<><>::
+GOST_IDLE_32_IDLE_1.png::CompressedTexture2D::6847257716629013719::1726692426::1726692426::1::::<><>::
+GOST_IDLE_32_IDLE_2.png::CompressedTexture2D::247725254168140999::1726692426::1726692426::1::::<><>::
+GOST_IDLE_32_IDLE_3.png::CompressedTexture2D::9153401398366576767::1726692426::1726692426::1::::<><>::
+GOST_IDLE_32_IDLE_4.png::CompressedTexture2D::3555909680210763277::1726692426::1726692426::1::::<><>::
+GOST_IDLE_32_IDLE_5.png::CompressedTexture2D::3379818346866554182::1726692426::1726692426::1::::<><>::
+::res://assets/IDLE/32x32/personagem principal/::1726694073
+idle 32x32.png::CompressedTexture2D::1015046633237993566::1726692426::1726692426::1::::<><>::
+::res://assets/IDLE/32x32/personagem principal/1C - Prototype Character/::1726694073
+::res://assets/IDLE/32x32/personagem principal/1C - Prototype Character/20x20/::1726694073
+Character Sheet 20x20.png::CompressedTexture2D::7694966574471126909::1726692426::1726692428::1::::<><>::
+frozen 20x20.png::CompressedTexture2D::3432136948367105232::1726692426::1726692428::1::::<><>::
+Idle 20x20.png::CompressedTexture2D::1200870972471141054::1726692426::1726692428::1::::<><>::
+jump 20x20.png::CompressedTexture2D::8180404482801443750::1726692426::1726692428::1::::<><>::
+walk 20x20.png::CompressedTexture2D::6127950127289208412::1726692428::1726692428::1::::<><>::
+::res://assets/IDLE/32x32/personagem principal/1C - Prototype Character/32x32/::1726694073
+Character Sheet 32x32.png::CompressedTexture2D::5814800983778583722::1726692428::1726692428::1::::<><>::
+frozen 32x32.png::CompressedTexture2D::2828715354425658911::1726692428::1726692428::1::::<><>::
+idle 32x32.png::CompressedTexture2D::4384373528718879016::1726692428::1726692428::1::::<><>::
+jump 32x32.png::CompressedTexture2D::7149273544778474035::1726692428::1726692428::1::::<><>::
+walk 32x32.png::CompressedTexture2D::6200480346188874772::1726692428::1726692428::1::::<><>::
+::res://assets/project/::1726694073
+button.gd::GDScript::-1::1726692430::0::1::::<>Button<>::
+Camera2D.gd::GDScript::-1::1726692430::0::1::::<>Camera2D<>::
+control.tscn::PackedScene::5099008300163941398::1726692430::0::1::::<><>::uid://dgyxusjwx1l4w<>uid://bbkeig4vra0uv
+node_2d.tscn::PackedScene::3522392444484109557::1726692430::0::1::::<><>::res://assets/project/button.gd
+Player.gd::GDScript::-1::1726692428::0::1::::<>CharacterBody2D<>::
+playerDD.gd::GDScript::-1::1726692430::0::1::::<>CharacterBody2D<>::
+playerDD.tscn::PackedScene::700543416552037563::1726692430::0::1::::<><>::res://assets/project/playerDD.gd<>uid://opxw1h3bvqmo
+world.tscn::PackedScene::8806804592128748012::1726692430::0::1::::<><>::uid://b01xmwhhjmb8<>uid://dgyxusjwx1l4w<>uid://vinnu2fp6p8p<>uid://ikne3aymmukf<>uid://d2rktaa40c0y5
+::res://assets/project/script Player/::1726694073
+Player1.gd::GDScript::-1::1726692430::0::1::::<>CharacterBody2D<>::
+player.gd::GDScript::-1::1726692430::0::1::::<>CharacterBody2D<>::
+::res://enemigro/::1726694073
+::res://enemigro/Reaper (Animated Pixel Art)/::1726694073
+::res://enemigro/Reaper (Animated Pixel Art)/Animation Sprite Sheets (PNG)/::1726694073
+HolsterWeaponReaper-Sheet.png::CompressedTexture2D::6442429417299562830::1726692424::1726692424::1::::<><>::
+HostileAttackReaper-Sheet.png::CompressedTexture2D::7880000944397594957::1726692424::1726692424::1::::<><>::
+HostileIdleReaper-Sheet.png::CompressedTexture2D::1220970320853455465::1726692424::1726692424::1::::<><>::
+HostileRunningReaper-Sheet.png::CompressedTexture2D::7087193364507127262::1726692424::1726692424::1::::<><>::
+PassiveIdleReaper-Sheet.png::CompressedTexture2D::5529882384233770987::1726692424::1726692424::1::::<><>::
+PassiveRunningReaper-Sheet.png::CompressedTexture2D::3533857583093996196::1726692424::1726692424::1::::<><>::
+WieldWeaponReaper-Sheet.png::CompressedTexture2D::6797718172075962400::1726692424::1726692424::1::::<><>::
+::res://enemigro/Reaper (Animated Pixel Art)/Aseprite Files/::1726694073
+::res://enemigro/Reaper (Animated Pixel Art)/Preview/::1726694073
+::res://enemigro/Reaper (Animated Pixel Art)/Preview/Cover/::1726694073
+Cover Photo.png::CompressedTexture2D::5150530380133345935::1726692424::1726692424::1::::<><>::
+::res://enemigro/Reaper (Animated Pixel Art)/Preview/Preview GIF/::1726694073
+::res://gato/::1726694073
+Cat Sprite Sheet.png::CompressedTexture2D::2477510820110356369::1726692424::1726692424::1::::<><>::
+::res://personagem principal/::1726694073
+AnimationSheet_Character.png::CompressedTexture2D::3304020904016929751::1726692422::1726692422::1::::<><>::

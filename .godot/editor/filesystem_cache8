@@ -1,0 +1,107 @@
+2a60927148abd1d33b818b535e306557
+::res://::1727216132
+character_body_2d.gd::GDScript::-1::1726782361::0::1::::<>CharacterBody2D<>::
+icon.svg::CompressedTexture2D::7337338450809636861::1723239624::1723239644::1::::<><>::
+::res://Animation Sprite Sheets (PNG)/::1727214218
+andar.png::CompressedTexture2D::1118897869971498702::1606682088::1727214218::1::::<><>::
+ataque.png::CompressedTexture2D::5726484891963362783::1606682068::1727214218::1::::<><>::
+esse animal.png::CompressedTexture2D::8375833532775350721::1606682172::1727214218::1::::<><>::
+guardar arma.png::CompressedTexture2D::8117272139955602737::1606681940::1727214218::1::::<><>::
+HostileRunningReaper-Sheet.png::CompressedTexture2D::7087193364507127262::1606682142::1727214218::1::::<><>::
+PassiveRunningReaper-Sheet.png::CompressedTexture2D::3533857583093996196::1606682204::1727214218::1::::<><>::
+WieldWeaponReaper-Sheet.png::CompressedTexture2D::6797718172075962400::1606682230::1727214218::1::::<><>::
+::res://assets/::1726694071
+::res://assets/Free Pixel Art Forest/::1726694074
+changelog.txt::TextFile::-1::1634587722::0::1::::<><>::
+Contact.txt::TextFile::-1::1630714892::0::1::::<><>::
+license.txt::TextFile::-1::1634587676::0::1::::<><>::
+readme.txt::TextFile::-1::1634588172::0::1::::<><>::
+::res://assets/Free Pixel Art Forest/PNG/::1726694071
+::res://assets/Free Pixel Art Forest/PNG/Background layers/::1726694071
+Layer_0000_9.png::CompressedTexture2D::9090096352488195442::1487548082::1724273686::1::::<><>::
+Layer_0001_8.png::CompressedTexture2D::1491294367083067125::1487548082::1724103796::1::::<><>::
+Layer_0002_7.png::CompressedTexture2D::7631373346071551708::1487548084::1724103796::1::::<><>::
+Layer_0003_6.png::CompressedTexture2D::582952462487225801::1487548084::1724103796::1::::<><>::
+Layer_0004_Lights.png::CompressedTexture2D::8355664869792484285::1487548086::1724103796::1::::<><>::
+Layer_0005_5.png::CompressedTexture2D::387151309449858487::1487548088::1724103794::1::::<><>::
+Layer_0006_4.png::CompressedTexture2D::8811938126545494332::1487548088::1724103794::1::::<><>::
+Layer_0007_Lights.png::CompressedTexture2D::5972919309782790026::1487548090::1724103794::1::::<><>::
+Layer_0008_3.png::CompressedTexture2D::1834181968460872884::1487548092::1724103794::1::::<><>::
+Layer_0009_2.png::CompressedTexture2D::3205873580189475747::1487548092::1724103794::1::::<><>::
+Layer_0010_1.png::CompressedTexture2D::8444072791144231966::1487548094::1724103794::1::::<><>::
+Layer_0011_0.png::CompressedTexture2D::3878159837864076016::1575073222::1724103794::1::::<><>::
+::res://assets/Free Pixel Art Forest/Preview/::1726694074
+Background.png::CompressedTexture2D::6222534341012603499::1723136872::1724103794::1::::<><>::
+::res://assets/Free Pixel Art Forest/PSD/::1726694074
+::res://assets/Free Pixel Art Forest/You may also like/::1726694074
+Pixel Art Forest.png::CompressedTexture2D::707388016169097616::1588029594::1724103794::1::::<><>::
+Pixel Art Plataformer Painted Style.png::CompressedTexture2D::2392439142076987237::1588030198::1724103794::1::::<><>::
+Pixel Art Runner.png::CompressedTexture2D::4673376972081233766::1588029420::1724103794::1::::<><>::
+Pixel Art Snowy Forest.png::CompressedTexture2D::2041335968810222829::1588029866::1724103794::1::::<><>::
+::res://assets/IDLE/::1726694071
+character_body_2d.gd::GDScript::-1::1725992964::0::1::::<>CharacterBody2D<>::
+character_body_2d.tscn::PackedScene::123418667154936331::1726693590::0::1::::<><>::uid://bncq0hiq5lxf0<>res://assets/IDLE/label.gd
+label.gd::GDScript::-1::1725557392::0::1::::<>Label<>::
+::res://assets/IDLE/16x16/::1726694071
+GOST_IDLE_16_IDLE_0.png::CompressedTexture2D::75705789710617797::1586221436::1723240090::1::::<><>::
+GOST_IDLE_16_IDLE_1.png::CompressedTexture2D::1102689847740031310::1586221436::1723240090::1::::<><>::
+GOST_IDLE_16_IDLE_2.png::CompressedTexture2D::1352858010060879167::1586221436::1723240090::1::::<><>::
+GOST_IDLE_16_IDLE_3.png::CompressedTexture2D::7442783170256123019::1586221436::1723240090::1::::<><>::
+GOST_IDLE_16_IDLE_4.png::CompressedTexture2D::2610944797175230222::1586221436::1723240090::1::::<><>::
+GOST_IDLE_16_IDLE_5.png::CompressedTexture2D::331929416000410112::1586221436::1723240090::1::::<><>::
+::res://assets/IDLE/32x32/::1726694071
+GOST_IDLE_32_IDLE_0.png::CompressedTexture2D::3266946376202341191::1723240564::1723240566::1::::<><>::
+GOST_IDLE_32_IDLE_1.png::CompressedTexture2D::6847257716629013719::1586221464::1723240090::1::::<><>::
+GOST_IDLE_32_IDLE_2.png::CompressedTexture2D::247725254168140999::1586221464::1723240090::1::::<><>::
+GOST_IDLE_32_IDLE_3.png::CompressedTexture2D::9153401398366576767::1586221464::1723240090::1::::<><>::
+GOST_IDLE_32_IDLE_4.png::CompressedTexture2D::3555909680210763277::1586221464::1723240090::1::::<><>::
+GOST_IDLE_32_IDLE_5.png::CompressedTexture2D::3379818346866554182::1586221464::1723240090::1::::<><>::
+::res://assets/IDLE/32x32/personagem principal/::1726694071
+idle 32x32.png::CompressedTexture2D::1015046633237993566::1724273252::1724273424::1::::<><>::
+::res://assets/IDLE/32x32/personagem principal/1C - Prototype Character/::1726694071
+::res://assets/IDLE/32x32/personagem principal/1C - Prototype Character/20x20/::1726694071
+Character Sheet 20x20.png::CompressedTexture2D::7694966574471126909::1688797304::1724275452::1::::<><>::
+frozen 20x20.png::CompressedTexture2D::3432136948367105232::1688796442::1724275452::1::::<><>::
+Idle 20x20.png::CompressedTexture2D::1200870972471141054::1688796388::1724275452::1::::<><>::
+jump 20x20.png::CompressedTexture2D::8180404482801443750::1688796434::1724275452::1::::<><>::
+walk 20x20.png::CompressedTexture2D::6127950127289208412::1688796418::1724275452::1::::<><>::
+::res://assets/IDLE/32x32/personagem principal/1C - Prototype Character/32x32/::1726694071
+Character Sheet 32x32.png::CompressedTexture2D::5814800983778583722::1688797290::1724275452::1::::<><>::
+frozen 32x32.png::CompressedTexture2D::2828715354425658911::1688796732::1724275452::1::::<><>::
+idle 32x32.png::CompressedTexture2D::4384373528718879016::1688796700::1724275452::1::::<><>::
+jump 32x32.png::CompressedTexture2D::7149273544778474035::1688796720::1724275452::1::::<><>::
+walk 32x32.png::CompressedTexture2D::6200480346188874772::1688796710::1724275452::1::::<><>::
+::res://assets/project/::1727216090
+button.gd::GDScript::-1::1726693358::0::1::::<>Button<>::
+Camera2D.gd::GDScript::-1::1724101962::0::1::::<>Camera2D<>::
+control.tscn::PackedScene::5099008300163941398::1727216090::0::1::::<><>::uid://dgyxusjwx1l4w<>uid://bbkeig4vra0uv<>res://assets/project/button.gd
+enemigro.gd::GDScript::-1::1727214612::0::1::::<>CharacterBody2D<>::
+enemigro.tscn::PackedScene::6416300601955631679::1727216090::0::1::::<><>::res://assets/project/enemigro.gd<>uid://drlk0wjh8l1cn<>uid://p7ac4vbo276y<>uid://cnt7mtfv3y8wp
+node_2d.tscn::PackedScene::3522392444484109557::1726597124::0::1::::<><>::res://assets/project/button.gd
+Player.gd::GDScript::-1::1724102234::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::7097676025117609943::1727216090::0::1::::<><>::uid://bncq0hiq5lxf0
+playerDD.gd::GDScript::-1::1725478286::0::1::::<>CharacterBody2D<>::
+playerDD.tscn::PackedScene::700543416552037563::1724948812::0::1::::<><>::res://assets/project/playerDD.gd<>uid://opxw1h3bvqmo
+world.tscn::PackedScene::8806804592128748012::1727216090::0::1::::<><>::uid://c8efxml0uufs6<>uid://dgyxusjwx1l4w<>uid://vinnu2fp6p8p<>uid://ikne3aymmukf<>uid://d2rktaa40c0y5<>uid://cxodsex62t24r
+::res://assets/project/script Player/::1726694071
+Player1.gd::GDScript::-1::1725992682::0::1::::<>CharacterBody2D<>::
+player.gd::GDScript::-1::1724102388::0::1::::<>CharacterBody2D<>::
+::res://enemigro/::1726694071
+::res://enemigro/Reaper (Animated Pixel Art)/::1726694071
+::res://enemigro/Reaper (Animated Pixel Art)/Animation Sprite Sheets (PNG)/::1727126563
+andar.png::CompressedTexture2D::1118897869971498702::1606682088::1727126563::1::::<><>::
+ataque.png::CompressedTexture2D::5726484891963362783::1606682068::1727126563::1::::<><>::
+esse animal.png::CompressedTexture2D::8375833532775350721::1606682172::1727125728::1::::<><>::
+guardar arma.png::CompressedTexture2D::8117272139955602737::1606681940::1727126563::1::::<><>::
+HostileRunningReaper-Sheet.png::CompressedTexture2D::7087193364507127262::1606682142::1725992010::1::::<><>::
+PassiveRunningReaper-Sheet.png::CompressedTexture2D::3533857583093996196::1606682204::1725992010::1::::<><>::
+WieldWeaponReaper-Sheet.png::CompressedTexture2D::6797718172075962400::1606682230::1725992010::1::::<><>::
+::res://enemigro/Reaper (Animated Pixel Art)/Aseprite Files/::1726694071
+::res://enemigro/Reaper (Animated Pixel Art)/Preview/::1726694071
+::res://enemigro/Reaper (Animated Pixel Art)/Preview/Cover/::1726694071
+Cover Photo.png::CompressedTexture2D::5150530380133345935::1608652072::1725992010::1::::<><>::
+::res://enemigro/Reaper (Animated Pixel Art)/Preview/Preview GIF/::1726694071
+::res://gato/::1726694071
+Cat Sprite Sheet.png::CompressedTexture2D::2477510820110356369::1725991946::1725992010::1::::<><>::
+::res://personagem principal/::1726694071
+AnimationSheet_Character.png::CompressedTexture2D::3304020904016929751::1725991622::1725992010::1::::<><>::
